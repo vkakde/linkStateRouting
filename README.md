@@ -25,10 +25,10 @@ Each router should maintain a "routing table" consisting of <network, cost, outg
 
 Write a main function that proceeds as follows:
 
-i. At the beginning of the program, create routers and initialize their direct links by reading in infile.dat.
-ii. Prompt the user if they would like to continue (enter "C"), quit (enter "Q"), print the routing table of a router ("P" followed by the router's id number), shut down a router (enter "S" followed by the id number), or start up a router (enter "T" followed by the id).
-iii. If the user chooses to continue, you should call the originatePacket() function on every router in whatever order you choose. Then prompt again.
-iv. If the user shuts down a router, change the router object so that it does not send out any LSP or do anything in response to originatePacket or receivePacket function calls.
-v. If the user starts up a router, change the router object so it once again behaves normally. (Routers initially are started, not stopped.)
-vi. If the user chooses to print the routing table, display the table and then prompt again.
-vii. If the user chooses to quit, exit the program.
+1. At the beginning of the program, create routers and initialize their direct links by reading in infile.dat.  
+2. Prompt the user if they would like to continue (enter "C"), quit (enter "Q"), print the routing table of a router ("P" followed by the router's id number), shut down a router (enter "S" followed by the id number), or start up a router (enter "T" followed by the id).   
+3. If the user chooses to continue, you should call the originatePacket() function on every router in whatever order you choose. Then prompt again.  
+4. If the user shuts down a router, change the router object so that it does not send out any LSP or do anything in response to originatePacket or receivePacket function calls.  
+5. If the user starts up a router, change the router object so it once again behaves normally. (Routers initially are started, not stopped.)  
+6. If the user chooses to print the routing table, display the table and then prompt again.  
+7i. If the user chooses to quit, exit the program.  
