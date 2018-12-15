@@ -31,4 +31,4 @@ Write a main function that proceeds as follows:
 4. If the user shuts down a router, change the router object so that it does not send out any LSP or do anything in response to originatePacket or receivePacket function calls.  
 5. If the user starts up a router, change the router object so it once again behaves normally. (Routers initially are started, not stopped.)  
 6. If the user chooses to print the routing table, display the table and then prompt again.  
-7i. If the user chooses to quit, exit the program.  
+7. If the user chooses to quit, exit the program.  
